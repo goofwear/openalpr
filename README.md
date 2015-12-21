@@ -58,7 +58,7 @@ Where:
      Max number of possible plate numbers to return.  Default=10
 
    --seek <integer_ms>
-     Seek to the specied millisecond in a video file. Default=0
+     Seek to the specified millisecond in a video file. Default=0
 
    -p <pattern code>,  --pattern <pattern code>
      Attempt to match the plate number against a plate pattern (e.g., md
@@ -105,10 +105,15 @@ Install OpenALPR on Ubuntu 14.04 x64 with the following commands:
     sudo apt-get update
     sudo apt-get install openalpr openalpr-daemon openalpr-utils libopenalpr-dev
 
+Documentation
+---------------
+
+Detailed documentation is available at [doc.openalpr.com] (http://doc.openalpr.com/)
+
 Integrating the Library
 -----------------------
 
-OpenALPR is written in C++ and has bindings in C#, Python, Node.js, and Java.  Please see this guide for examples showing how to run OpenALPR in your application: https://github.com/openalpr/openalpr/wiki/Integrating-OpenALPR
+OpenALPR is written in C++ and has bindings in C#, Python, Node.js, and Java.  Please see this guide for examples showing how to run OpenALPR in your application: http://doc.openalpr.com/bindings.html
 
 Compiling
 -----------
@@ -129,7 +134,8 @@ Please follow these detailed compilation guides for your respective operating sy
 * [Windows] (https://github.com/openalpr/openalpr/wiki/Compilation-instructions-(Windows))
 * [Ubuntu Linux] (https://github.com/openalpr/openalpr/wiki/Compilation-instructions-(Ubuntu-Linux))
 * [OS X] (https://github.com/openalpr/openalpr/wiki/Compilation-instructions-(OS-X))
-* [Android] (https://github.com/sujaybhowmick/OpenAlprDroidApp)
+* [Android Library] (https://github.com/SandroMachado/openalpr-android)
+* [Android Application Sample] (https://github.com/sujaybhowmick/OpenAlprDroidApp)
 * [iOS] (https://github.com/twelve17/openalpr-ios)
 
 If all went well, there should be an executable named *alpr* along with *libopenalpr-static.a* and *libopenalpr.so* that can be linked into your project.
